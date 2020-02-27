@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- saved from url=(0084)https://s0.2mdn.net/4341163/1531260078849/concept_snackerflies_300x250_ES/index.html -->
+<html class="no-js" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><title></title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><link rel="stylesheet" href="./styles.css"><meta name="ad.size" content="width=300,height=250"><script src="./jquery.min.js.download"></script><script src="./cssplugin_1.18.5_6bbddbd910e8bfac4e19220fe52e1af6_min.js.download"></script><script src="./tweenlite_1.18.5_3bb7bb8f4b38ac71b33dad50f1b17f49_min.js.download"></script><script src="./timelinemax_1.18.5_f45d6c8dddb03033bed63bfe57d69df3_min.js.download"></script><script src="./easepack_1.18.5_4405b7326844d606cf693d06af83ddfd_min.js.download"></script><script src="./main.js.download"></script><script type="text/javascript">var clickTag = "https://google.com";</script><script type="text/javascript">
+    
+      (function() {
+        var relegateNavigation = '';
+        var handleClickTagMessage = function(e) {
+          try {
+            var eventData = JSON.parse(e.data);
+          } catch (err) {
+            return;
+          }
+          if (eventData.isInitClickTag) {
+            if (eventData.clickTags) {
+              for (var i = 0; i < eventData.clickTags.length; i++) {
+                var clkTag = eventData.clickTags[i];
+                window[clkTag.name] = clkTag.url;
+              }
+            } else if (eventData.clickTag) {
+              window.clickTag = eventData.clickTag;
+            }
+            relegateNavigation = eventData.relegateNavigation;
+          }
+        };
+
+        if (open.call) {
+          window.open = function(open) {
+            return function(url, name, features) {
+              if (relegateNavigation === 'parent') {
+                var message = {'clickTag': url, 'isPostClickTag': true};
+                parent.postMessage(JSON.stringify(message), '*');
+              } else {
+                var args = [url, name];
+                if (features) {
+                  args.push(features);
+                }
+                open.apply(window, args);
+              }
+            };
+          }(window.open);
+        }
+
+        if (window.addEventListener) {
+          window.addEventListener(
+              'message', handleClickTagMessage, false);
+        } else {
+          window.attachEvent('onmessage', handleClickTagMessage);
+        }
+      })();
+    
+  </script></head><body class="loaded"><div class="preloader"><div></div><div></div></div><div class="wrapper white-state centered-layout step step-active" id="step-1" data-order="1"><a id="main" href="javascript:void(0);" onclick="window.open(window.clickTag);"><img src="./bg.jpg" id="background"><img src="./imgBag01.png" id="imgBag01" style="opacity: 0;"><img src="./imgBag02.png" id="imgBag02" style="opacity: 0;"><img src="./imgBag03.png" id="imgBag03" style="opacity: 0;"><img src="./imgBag04_2x.png" id="imgBag04" style="opacity: 1; transform: matrix(0.97029, 0.24192, -0.24192, 0.97029, 13, -141);"><img src="./imgLogoJC.png" id="imgLogoJohnson" style="opacity: 1;"><img src="./imgLogoZiplocSmall.png" id="imgLogoZiplocSmall" style="opacity: 0;"><img src="./imgLogoZiplocBig.png" id="imgLogoZiplocBig" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><img src="./imgLogoUs.png" id="imgLogoZiplocUS" style="opacity: 1;"><img src="./text01.png" id="text01" style="transform: matrix(1, 0, 0, 1, 0, -180);"><img src="./text02.png" id="text02" style="transform: matrix(1, 0, 0, 1, 0, -180);"><div id="cta" style="transform: matrix(1, 0, 0, 1, 0, 0);"><img src="./cta_static.png" id="ctaStatic"><img src="./cta_hover.png" id="ctaHover"><div id="hotSpot"></div></div></a></div><script>App_banner.getInstance().init();</script></body></html>

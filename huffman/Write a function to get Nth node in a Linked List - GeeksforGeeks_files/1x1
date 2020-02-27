@@ -1,0 +1,23 @@
+
+var sojern_advertiser = [];
+var sojern_partner = [{"dc":"New York","dr":"3","dt":"2018-12-22","et":"hs","nt":"200","rt":"2018-12-25"},{"da":"BOS","dr":"6","dt":"2018-10-24","et":"fs","nt":"1","oa":"CHI","rt":"2018-10-30"},{"da":"ATL","dr":"6","dt":"2018-11-07","et":"fs","nt":"1","oa":"CHI","rt":"2018-11-13"},{"da":"ELP","dr":"7","dt":"2018-06-26","et":"fs","nt":"1","oa":"CHI","rt":"2018-07-03"},{"da":"LYS","dr":"9","dt":"2018-07-07","et":"fs","nt":"1","oa":"CHI","rt":"2018-07-16"},{"da":"NTE","dr":"7","dt":"2018-07-08","et":"fs","nt":"1","oa":"LYS","rt":"2018-07-15"},{"da":"BOS","dr":"6","dt":"2018-10-24","et":"fs","nt":"1","oa":"CHI","rt":"2018-10-30"},{"da":"LYS","dr":"9","dt":"2018-07-07","et":"fs","nt":"1","oa":"CHI","rt":"2018-07-16"},{"da":"LYS","dr":"9","dt":"2018-07-07","et":"fs","nt":"1","oa":"CHI","rt":"2018-07-16"},{"da":"PAR","dr":"6","dt":"2018-09-24","et":"fs","nt":"1","oa":"CHI","rt":"2018-09-30"}];
+var sojern_advertiser_et = "";
+var sojern_partner_et = "fs"; 
+var sojern_advertiser_dt = "";
+var sojern_partner_dt = "2018-09-24"; 
+var sojern_advertiser_rt = "";
+var sojern_partner_rt = "2018-09-30"; 
+var sojern_advertiser_da = "";
+var sojern_partner_da = "PAR"; 
+var sojern_advertiser_oa = "";
+var sojern_partner_oa = "CHI"; 
+var sojern_advertiser_dr = "";
+var sojern_partner_dr = "6"; 
+var sojern_advertiser_dc = "";
+var sojern_partner_dc = ""; 
+var sojern_advertiser_hb = "";
+var sojern_partner_hb = ""; 
+var sojern_advertiser_pr = "";
+var sojern_partner_pr = ""; 
+
+document.write("<script type=text/javascript src=https://static.sojern.com/dc/20180621jvx1.js?ord=5405691834911224340></script>");

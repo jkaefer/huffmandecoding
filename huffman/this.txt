@@ -1,0 +1,553 @@
+codes: 001D00
+00
+01
+05
+01
+01
+01
+01
+00
+00
+00
+00
+00
+00
+00
+00
+00
+codes: 004D10
+00
+01
+03
+03
+03
+02
+04
+04
+03
+07
+03
+02
+05
+01
+02
+0F
+codes: 001401
+01
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+codes: 001411
+01
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+00
+i'm 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+i'm > 0
+16

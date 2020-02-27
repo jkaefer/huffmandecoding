@@ -1,0 +1,2 @@
+in order to create hexdump exe need to use mingw, but you probably knew
+this since you took c++ at Virginia Tech.

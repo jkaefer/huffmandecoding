@@ -1,0 +1,11 @@
+gcc -o singftest singftest.c -g
+
+
+hexdump can be encapsulated in single function if not in its own files
+
+
+singftest.c 
+cellinklist2.c h
+triclass c 
+herit c h 
+Date c h

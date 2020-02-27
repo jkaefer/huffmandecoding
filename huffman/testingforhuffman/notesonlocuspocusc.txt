@@ -1,0 +1,5 @@
+agnlocusstream depends on or points to gtnodestream or seems like they are interchangeable
+
+gtnode streams are put into a queue
+
+are the streams the lines in the final output of locus features, don't think so, because there is not for loop

@@ -1,0 +1,151 @@
+//used so that if header is included twice in another file
+//it won't trigger an error
+#ifndef CELL_LINKLIST_H
+#define CELL_LINKLIST_H
+
+
+
+struct codesoflenlist{
+	int data;
+};
+
+struct codesoflenlistNode{
+	struct codesoflenlist data;
+	struct codesoflenlistNode *next;
+};
+
+
+struct codon {
+    int data;
+    struct codesoflenlistNode *codeslenlistHead;
+};
+
+struct codonNode{
+   struct codon data;
+   struct codonNode *next;
+};
+
+struct cell {
+    int health;
+    struct codonNode *codonHead;
+  };
+
+struct cellNode {
+   struct cell data;
+   struct cellNode *next;
+};
+
+//struct node *head = NULL;
+//struct node *current = NULL;
+
+
+//display the list
+void cellprintList(int select);
+
+
+void cellinsert(int select,struct cell data);
+
+struct cell cellget(int select,int index); 
+
+struct cellNode *cellNodeget(int select,int index);
+
+void cellremoveFirstNode(int select);
+void cellremoveNode(int select,int index);
+
+
+int cellcount(int select);
+
+
+
+
+
+void codoninsert(struct cellNode *tempcell,struct codon data); 
+
+void speccodeinsert(struct codonNode *tempcodonNode,struct codesoflenlist data);
+
+struct codon *codonNodeGet(struct cellNode *tempcell,int codonind);
+
+struct codon codonget(struct cellNode *tempcell,int codonind);
+
+int speccodeget(struct codonNode *tempcodonNode,int speccode);
+
+int codecount(struct codonNode *tempcodonNode);
+
+int codoncount(struct cellNode *tempcell);
+
+#endif//used so that if header is included twice in another file
+//it won't trigger an error
+#ifndef CELL_LINKLIST_H
+#define CELL_LINKLIST_H
+
+
+
+struct codesoflenlist{
+	int data;
+};
+
+struct codesoflenlistNode{
+	struct codesoflenlist data;
+	struct codesoflenlistNode *next;
+};
+
+
+struct codon {
+    int data;
+    struct codesoflenlistNode *codeslenlistHead;
+};
+
+struct codonNode{
+   struct codon data;
+   struct codonNode *next;
+};
+
+struct cell {
+    int health;
+    struct codonNode *codonHead;
+  };
+
+struct cellNode {
+   struct cell data;
+   struct cellNode *next;
+};
+
+//struct node *head = NULL;
+//struct node *current = NULL;
+
+
+//display the list
+void cellprintList(int select);
+
+
+void cellinsert(int select,struct cell data);
+
+struct cell cellget(int select,int index); 
+
+struct cellNode *cellNodeget(int select,int index);
+
+void cellremoveFirstNode(int select);
+void cellremoveNode(int select,int index);
+
+
+int cellcount(int select);
+
+
+
+
+
+void codoninsert(struct cellNode *tempcell,struct codon data); 
+
+void speccodeinsert(struct codonNode *tempcodonNode,struct codesoflenlist data);
+
+struct codon *codonNodeGet(struct cellNode *tempcell,int codonind);
+
+struct codon codonget(struct cellNode *tempcell,int codonind);
+
+int speccodeget(struct codonNode *tempcodonNode,int speccode);
+
+int codecount(struct codonNode *tempcodonNode);
+
+int codoncount(struct cellNode *tempcell);
+
+#endif

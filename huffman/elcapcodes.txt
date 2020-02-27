@@ -1,0 +1,40 @@
+
+FF DB DQT x3
+
+
+DRI (Define Restart Interval) marker:
+
+          Field                         Size                   Description
+
+   Marker Identifier            2 bytes      0xff, 0xdd identifies DRI marker
+
+   Length                            2 bytes       It must be 4
+ 
+   Restart interval               2 bytes       This is in units of MCU blocks, means that every n MCU
+
+                                                             blocks a RSTn marker can be found. The first marker will
+
+                                                             be RST0, then RST1 etc, after RST7 repeating from RST0
+FF DD x2 restart intervals DRI
+
+
+
+FF C0 nothing beyond this eg FF C0(SOF1)
+SOF0= 
+
+ff c0 00 11 08 00 6b 00 a0 03 01 22 00 02 11 01 03 11 01 ff dd 00 04 00 0a
+
+another SOF0=
+
+ff c0 00 11 08 00 6b 00 a0 03 01 22 00 02 11 01 03 11 01 ff dd 00 04 00 0a
+
+exactly the same
+
+
+
+in el cap 9 SOS FF DA all placed consecutively or at the end followed by ff d9
+
+only 3 hufftables FF C4
+
+test this
+Remarks:    A single DHT segment may contain multiple HTs, each with its own information byte.

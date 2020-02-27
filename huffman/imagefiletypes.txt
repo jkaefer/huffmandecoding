@@ -1,0 +1,67 @@
+
+pbm- black and white image
+pgm grey scale one more parameter than pbm
+ last number parameter is the max greyscale number
+
+ppm- color image, has three values same header format as pgm-
+- as opposed to one value representing a pixel three values represent a pixel.
+- three bands r, g ,b
+
+There are two common types of JPEG files: JPEG/JFIF and JPEG/Exif. Both specs (JFIF and Exif) require 
+that their corresponding header appears directly after the SOI (Start of Image) marker. 
+In the case of JFIF it is an APP0 marker, in the case of Exif it is an APP1 marker.
+
+Quantization:
+
+This is the point at which the user (you) can control the quality and amount of compression of the JPEG. Most 
+application such as Photoshop have a slider or drop list 
+of quality settings. The quality setting ( Quality factor ) 
+is used to scale the values in the quantization table.
+
+If the DCT input has a small pattern strength or a large divisor in the quantization table the Output will likely
+ round to zero.
+
+The lower the quality setting, the greater the divisor, increasing the chance of a zero result. On the converse,
+ the highest quality setting would have quantization ta
+ble values of all 1's, meaning the all of the original DCT data is preserved.
+
+
+
+
+Since the JPEG compression algorithm uses quantization to reduce many of these high-frequency values to zero, one 
+typically has a number of non-zero entries in the earlier coefficients and a long run of zero coefficients 
+to the end of the matrix.
+
+
+
+SOF0:
+
+0x simply indicates that the number that follows is in hexadecimal
+
+number of componens mean number of colors
+
+
+for each component: 3 bytes
+component id (1 = Y, 2 = Cb, 3 = Cr, 4 = I, 5 = Q)
+sampling factors (bit 0-3 vert., 4-7 hor.)
+quantization table number
+
+
+
+SOS(start of scan):
+
+-immediately followed by entropy coded data, possibly the huffman table contains decode info
+
+
+
+Huffman Coding(Entropy Coding):
+
+Huffman coding is a method that takes symbols (e.g. bytes, DCT coefficients, etc.) and encodes them 
+with variable length codes that are assigned according to statistical probabilities. 
+A frequently-used symbol will be encoded with a code that takes up only a couple bits, while symbols 
+that are rarely used are represented by symbols that take more bits to encode.
+
+
+
+
+each pair of hexadecimal characters represents one byte

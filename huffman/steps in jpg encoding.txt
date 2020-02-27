@@ -1,0 +1,46 @@
+in jpg:
+
+1 images split into 8x8 nonoverlapping blocks
+2 each block is transformed using DCT
+3 each dct coefficient is quantized using psycovisually-tuned tables
+4 resulting bitstream is compressed using runlength encoding and huffman coding
+
+
+8x8 block transformed
+
+dct coefficient/ quantization table entry yields quantized dct coefficient
+
+large values very course quantization
+
+bit allocation:
+uniform-allocates same number of bits to each dct coefficient
+tuned-
+
+string of quantized coefficients- where largest values are in the beggining
+and the tail of the string is just 0s(zigzag scan) on 8x8 dct coefficient 
+matrix
+
+now have to code string of numbers in a smart way
+
+runlength encoding:
+each non-zero value in sequence of quantized dct coefficients
+will be encoded with three numbers{(r,s),c]
+r=number of 0s that came before the non 0 number
+s=the number of bits needed to encode the value in binary
+c is the actual value
+
+if r and s are zero every subsequent coefficient is 0 can stop at this point
+
+max number of bits that can be allocated to a single dct coefficient is 11
+maximum runlength 15
+
+(r,s) is a total of 8 bits
+
+but some pairs are more common than others!
+
+find which (r,s) pairs occur more often
+
+can we have a bitstream that is self-parsing without the need for an extra symbol
+
+prefix free codes: no valid sequence can be the prefix of another sequence
+-this is done by using a tree with each symbol located at a leaf

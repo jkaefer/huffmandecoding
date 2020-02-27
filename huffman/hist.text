@@ -1,0 +1,1000 @@
+  194  service sshd status
+  195  systemctl set-default graphical.target
+  196  shutdown -r now
+  197  cd Downloads/
+  198  mv distorig.pkl distorig100.pkl
+  199  ls -a distnew.pkl
+  200  ls -la distnew.pkl
+  201  ls -la distnew50.pkl
+  202  ls -la distnew100.pkl
+  203  rm distnew.pkl 
+  204  jupyter notebook
+  205  shutdown -h now
+  206  sudo su
+  207  cd Downloads/
+  208  sftp pcuser@192.168.1.107
+  209  exit
+  210  jupyter notebook --ip 192.168.1.92 --port 8888 --no-browser
+  211  sftp pcuser@192.168.1.107
+  212  cd Downloads/
+  213  python3
+  214  python3 pool2_reference_sequence_neural_net4.py 1.pkl
+  215  mv ../*.pkl .
+  216  cd ..
+  217  ls
+  218  mv pool2_reference_sequence_neural_net4.py Downloads/
+  219  cd Downloads/
+  220  python3 pool2_reference_sequence_neural_net4.py 1.pkl && pool2_reference_sequence_neural_net4.py 2.pkl && pool2_reference_sequence_neural_net4.py 3.pkl && pool2_reference_sequence_neural_net4.py 4.pkl
+  221  python3 pool2_reference_sequence_neural_net4.py 2.pkl && python3 pool2_reference_sequence_neural_net4.py 3.pkl && python3 pool2_reference_sequence_neural_net4.py 4.pkl && python3 pool2_reference_sequence_neural_net5.py 1b.pkl && python3 pool2_reference_sequence_neural_net5.py 2b.pkl && python3 pool2_reference_sequence_neural_net5.py 3b.pkl && python3 pool2_reference_sequence_neural_net5.py 4b.pkl &
+  222  sftp pcuser@192.168.1.107
+  223  python3 pool2_reference_sequence_neural_net4.py 1.pkl && python3 pool2_reference_sequence_neural_net4.py 2.pkl && python3 pool2_reference_sequence_neural_net4.py 3.pkl && python3 pool2_reference_sequence_neural_net4.py 4.pkl && python3 pool2_reference_sequence_neural_net5.py 1b.pkl && python3 pool2_reference_sequence_neural_net5.py 2b.pkl && python3 pool2_reference_sequence_neural_net5.py 3b.pkl && python3 pool2_reference_sequence_neural_net5.py 4b.pkl &
+  224  ls
+  225  python3 pool2_reference_sequence_neural_net4.py 2.pkl
+  226  sed -i '1d' pool2_reference_sequence_neural_net4.py 
+  227  python3 pool2_reference_sequence_neural_net4.py 2.pkl
+  228  head pool2_reference_sequence_neural_net4.py 
+  229  xit
+  230  sftp pcuser@192.168.1.107
+  231  head pool2_reference_sequence_neural_net4.py
+  232  nano pool2_reference_sequence_neural_net4.py
+  233  nano pool2_reference_sequence_neural_net5.py
+  234  python3 pool2_reference_sequence_neural_net4.py 1.pkl && python3 pool2_reference_sequence_neural_net4.py 2.pkl && python3 pool2_reference_sequence_neural_net4.py 3.pkl && python3 pool2_reference_sequence_neural_net4.py 4.pkl && python3 pool2_reference_sequence_neural_net5.py 1b.pkl && python3 pool2_reference_sequence_neural_net5.py 2b.pkl && python3 pool2_reference_sequence_neural_net5.py 3b.pkl && python3 pool2_reference_sequence_neural_net5.py 4b.pkl &
+  235  top
+  236  sftp pcuser@192.168.1.107
+  237  mv pool2_reference_sequence_neural_net5.py Downloads/
+  238  top
+  239  cd Downloads/
+  240  cd scrip.sh
+  241  nano scrip.sh
+  242  chmod +x scrip.sh 
+  243  nohup bash scrip.sh
+  244  top
+  245  cd Downloads/
+  246  ls
+  247  exit
+  248  cd Downloads/
+  249  ls
+  250  exit
+  251  ls
+  252  cd Downloads/
+  253  ls
+  254  exit
+  255  cd Downloads/
+  256  ls
+  257  top
+  258  cd Downloads/
+  259  ls
+  260  cd Download
+  261  cd Downloads/
+  262  python3
+  263  killall -u pcuser
+  264  ls
+  265  top
+  266  nano scrip.sh 
+  267  sftp pcuser@192.168.1.92
+  268  sftp pcuser@192.168.1.107
+  269  nohup bash scrip.sh 
+  270  top
+  271  killall -u pcuser
+  272  rm -rf 1.pkl
+  273  rm -rf 2.pkl
+  274  rm -rf 3.pkl
+  275  rm -rf 4.pkl
+  276  ls
+  277  ls *.pkl
+  278  ls -la 1b.pkl 
+  279  ls -la 2b.pkl 
+  280  rm -rf *b.pkl
+  281  ls
+  282  ls *.pkl
+  283  nohup bash scrip.sh 
+  284  ls *.pkl
+  285  top
+  286  ls *.pkl
+  287  exit
+  288  cd Downloads/
+  289  ls *.pkl
+  290  exit
+  291  cd Downloads/
+  292  ls *.pkl
+  293  exit
+  294  cd Downloads/
+  295  ls *.pkl
+  296  top
+  297  exit
+  298  cd Downloads/
+  299  exit
+  300  cd Downloads/
+  301  ls *.pkl
+  302  top
+  303  nano pool2_reference_sequence_neural_net5.py 
+  304  ls *.pkl
+  305  rm -rf *b.pkl
+  306  ls
+  307  ls *.pkl
+  308  cp scrip.sh scrip2.sh
+  309  nano scrip2.sh 
+  310  chmod +x scrip2.sh 
+  311  nohup bash scrip2.sh
+  312  top
+  313  cd Downloads/
+  314  ls *.pkl
+  315  top
+  316  nano pool2_reference_sequence_neural_net5.py 
+  317  ls *.pkl
+  318  top
+  319  killall -u pcuser
+  320  nano pool2_reference_sequence_neural_net5.py 
+  321  nohup bash scrip2.sh
+  322  exit
+  323  top
+  324  exit
+  325  cd Download
+  326  cd Downloads/
+  327  ls *.pkl
+  328  top
+  329  exit
+  330  cd Downloads/
+  331  top
+  332  ls *.pkl
+  333  top
+  334  ls *.pkl
+  335  top
+  336  ls *.pkl
+  337  top
+  338  python3
+  339  ls *.pkl
+  340  ls -la distnew100.pkl
+  341  ls -la distnew200.pkl
+  342  ls -la distnew50.pkl
+  343  ls -la distorig50.pkl
+  344  shutdown -h now
+  345  sudo su
+  346  nano scrip.sh
+  347  cd Downloads/
+  348  nano scrip.sh 
+  349  sftp pcuser@192.168.1.107
+  350  exti
+  351  exit
+  352  cd Downloads/
+  353  chmod +x scrip.sh
+  354  ls *.pkl
+  355  rm -rf 1*pkl
+  356  ls *.pkl
+  357  rm -rf 2*pkl
+  358  rm -rf 3*pkl
+  359  rm -rf 4*pkl
+  360  ls *.pkl
+  361  nano pool2_reference_sequence_neural_net4.py 
+  362  nohup bash scrip.sh
+  363  top
+  364  exit
+  365  cd Downloads/
+  366  ls *.pkl
+  367  top
+  368  exit
+  369  cd Downloads
+  370  ls *.pkl
+  371  ls -la *.pkl
+  372  exit
+  373  systemctl set-default graphical.target
+  374  shutdown -r now
+  375  cd Downloads/
+  376  python3
+  377  ls
+  378  ls *.pkl
+  379  rm -rf 1*pkl
+  380  rm -rf 2*pkl
+  381  rm -rf 3*pkl
+  382  rm -rf 4*pkl
+  383  rm -rf 5*pkl
+  384  rm -rf 6*pkl
+  385  rm -rf 7*pkl
+  386  rm -rf 8*pkl
+  387  ls *pkl
+  388  python3
+  389  jupyter notebook
+  390  jupyter notebook password
+  391  jupyter notebook
+  392  pip install xelatex
+  393  sudo apt-get install xelatex
+  394  sudo apt-get install texlive-xetex
+  395  cd Downloads/
+  396  nano hidecode.tplx
+  397  jupyter nbconvert --to pdf --template hidecode pool2_reference_sequence_neural_net4.ipynb
+  398  sudo apt-get install pandoc
+  399  jupyter nbconvert --to pdf --template hidecode pool2_reference_sequence_neural_net4.ipynb
+  400  sudo systemctl set-default multi-user.target && sudo shutdown -r now
+  401  cd Downloads/
+  402  ls
+  403  nano pool2_reference_sequence_neural_net4.py
+  404  nano pool2_reference_sequence_neural_net5.py
+  405  nano scrip.sh
+  406  cp pool2_reference_sequence_neural_net5.py pool2_reference_sequence_neural_net4b.py
+  407  nano pool2_reference_sequence_neural_net4b.py
+  408  sftp pcuser@192.168.1.107
+  409  chmod +x scrip.sh
+  410  nohup bash scrip.sh
+  411  top
+  412  nano pool2_reference_sequence_neural_net4b.py
+  413  exit
+  414  top
+  415  ls
+  416  cd Downloads/
+  417  ls
+  418  ls *pkl
+  419  exit
+  420  cd Downloads/
+  421  ls *pkl
+  422  top
+  423  exit
+  424  cd Downloads/
+  425  ls
+  426  ls *pkl
+  427  exit
+  428  cd Downloads/
+  429  ls *pkl
+  430  exit
+  431  cd Downloads/
+  432  ls *pkl
+  433  killall -u pcuser
+  434  top
+  435  exit
+  436  cd Downloads/
+  437  nano pool2_reference_sequence_neural_net4b.py
+  438  nano scrip.sh
+  439  nano scrip2.sh
+  440  mv scrip.sh scrip3.sh
+  441  sftp pcuser@192.168.1.107
+  442  nano pool2_reference_sequence_neural_net5.py
+  443  nano pool2_reference_sequence_neural_net4.py
+  444  nano scrip.sh
+  445  chmod +x scrip.sh
+  446  nohup bash scrip.sh
+  447  exit
+  448  cd Downloads/
+  449  ls
+  450  cd Desk
+  451  cd ../Desktop/
+  452  exit
+  453  cd Downloads/
+  454  ls *pkl
+  455  top
+  456  ls *pk
+  457  ls *pkl
+  458  killall -u pcuser
+  459  exit
+  460  shutdown -h now
+  461  sudo su
+  462  cd Downloads/
+  463  nano scrip3.sh 
+  464  nano pool2_reference_sequence_neural_net4b.py 
+  465  nohup bash scrip3.sh
+  466  top
+  467  exit
+  468  cd Downloads/
+  469  ls *pkl
+  470  rm -rf 1.*kl
+  471  rm -rf 2.*kl
+  472  rm -rf 3.*kl
+  473  ls *pkl
+  474  rm -rf 4.*kl
+  475  exit
+  476  cd Downloads/
+  477  ls *pkl
+  478  exit
+  479  python3
+  480  cd Downloads/
+  481  python3
+  482  ls *pkl
+  483  mv distwbotr400.pkl distwb400otr.pkl
+  484  ls *pkl
+  485  rm -rf *b.pkl
+  486  ls *pkl
+  487  sudo su
+  488  gedit pool2_reference_sequence_neural_net4b.py
+  489  nohup bash scrip3.sh
+  490  top
+  491  cd Downloads/
+  492  ls -la *pkl
+  493  jupyter notebook
+  494  ls
+  495  cd Downloads/
+  496  ls
+  497  top
+  498  ls *pkl
+  499  exit
+  500  cd Downloads/
+  501  ls *pkl
+  502  exit
+  503  cd Downloads/
+  504  ls *pkl
+  505  top
+  506  exit
+  507  cd Downloads/
+  508  ls *pkl
+  509  exit
+  510  cd Downloads/
+  511  ls *pkl
+  512  mv 100otr.pkl distwb100otr.pkl
+  513  mv 100ots.pkl distwb100ots.pkl
+  514  ls *pkl
+  515  mv 50otr.pkl distwb50otr.pkl
+  516  ls *pkl
+  517  exit
+  518  cd Downloads/
+  519  ls *pkl
+  520  exit
+  521  cd Downloads/
+  522  ls *pkl
+  523  top
+  524  exit
+  525  cd Downloads/
+  526  ls *pkl
+  527  mv 50ots.pkl distwb50ots.pkl
+  528  ls *pkl
+  529  exit
+  530  cd Downloads/
+  531  ls *pkl
+  532  exit
+  533  cd Downloads/
+  534  ls *pkl
+  535  top
+  536  exit
+  537  cd Downloads/
+  538  ls *pkl
+  539  exit
+  540  cd Downloads/
+  541  ls *pkl
+  542  exit
+  543  cd Downloads/
+  544  ls *pkl
+  545  exit
+  546  cd Downloads/
+  547  ls *pkl
+  548  exit
+  549  cd Downloads/
+  550  ls *pkl
+  551  exit
+  552  cd Downloads/
+  553  ls *pkl
+  554  top
+  555  exit
+  556  cd Downloads/
+  557  ls *pkl
+  558  top
+  559  ls
+  560  exit
+  561  cd Downloads/
+  562  ls *pkl
+  563  exit
+  564  cd Downloads/
+  565  ls *pkl
+  566  exit
+  567  cd Downloads/
+  568  ls *pkl
+  569  exit
+  570  cd Downloads/
+  571  ls *pkl
+  572  exit
+  573  python3
+  574  ls *pkl
+  575  python3
+  576  ls *pkl
+  577  cd Downloads
+  578  ls *pkl
+  579  jupyter notebook
+  580  shutdown -h now
+  581  cd Downloads/
+  582  nano pool2_reference_sequence_neural_net4.py
+  583  nano batchsz.sh
+  584  nano scrip.sh
+  585  nano batchsz.sh
+  586  ls *ots.py
+  587  nano *ots.py
+  588  nano *otr.py
+  589  gedit batchsz.sh
+  590  nano batchsz.sh
+  591  chmod +x batchsz.sh
+  592  nohup bash batchsz.sh
+  593  exit
+  594  ls *pkl
+  595  cd Downloads/
+  596  ls *pkl
+  597  exit
+  598  cd Downloads/
+  599  ls *pkl
+  600  exit
+  601  cd Downloads/
+  602  cp pool2_reference_sequence_neural_net4ots.py ../pool2_reference_sequence_neural_net4ots.py
+  603  cd ..
+  604  ls pool2_reference_sequence_neural_net4ots.py 
+  605  exit
+  606  ls Downloads/*pkl
+  607  exit
+  608  ls Downloads/*pkl
+  609  exit
+  610  ls Downloads/*pkl
+  611  exit
+  612  ls Downloads/*pkl
+  613  top
+  614  exit
+  615  ls Downloads/*pkl
+  616  nano jots.sh
+  617  cd Downloads/
+  618  nano jots.sh
+  619  nohup bash jots.sh
+  620  nano pool2_reference_sequence_neural_net4ots.py
+  621  ls *pkl
+  622  exit
+  623  ls Downloads/*pkl
+  624  top
+  625  exit
+  626  ls Downloads/*pkl
+  627  top
+  628  ls Downloads/*pkl
+  629  shutdown -h now
+  630  sudo su
+  631  cd Downloads/
+  632  jupyter notebook\
+  633  jupyter notebook
+  634  chmod +x bs_ln.sh 
+  635  nohup bash bs_ln.sh
+  636  cd Downloads/
+  637  get bs_ln.sh 
+  638  exit
+  639  cd Downloads/
+  640  ls *pkl
+  641  exit
+  642  ls *pkl
+  643  cd Downloads/
+  644  ls *pkl
+  645  exit
+  646  cd Downloads/
+  647  sftp pcuser@192.168.1.82
+  648  sftp pcuser@192.168.1.107
+  649  exit
+  650  cd Downloads/
+  651  nano bs_ln_outs.sh 
+  652  exit
+  653  cd Downloads/
+  654  ls *pkl
+  655  nohup bash bs_ln_outs.sh 
+  656  exit
+  657  cd Downloads/
+  658  ls *pkl
+  659  sftp pcuser@192.168.1.107
+  660  nohup bash bs_ln_outs.sh 
+  661  exit
+  662  cd Downloads
+  663  ls *pkl
+  664  chmod +x bs_ln_outs.sh 
+  665  top
+  666  cd Downloads/
+  667  ls *pkl
+  668  killall -u pcuser
+  669  nano bs_ln_outs.sh 
+  670  top
+  671  nohup bash bs_ln_outs.sh 
+  672  ls *py
+  673  nano *othlouts.py
+  674  nano *othnlouts.py
+  675  ls *csv
+  676  top
+  677  nano bs_ln_outs.sh 
+  678  python3 pool2_reference_sequence_neural_net4bothnlouts.py 50ln20bs32outs.pkl 50 20 32
+  679  nano *4a.ipynb
+  680  ls *py
+  681  nano *4a.py
+  682  cp *4a.py ..
+  683  nano *4a.py
+  684  nohup bash bs_ln_outs.sh 
+  685  top
+  686  python3 pool2_reference_sequence_neural_net4bothnlouts.py 50ln20bs32outs.pkl 50 20 32
+  687  nano pool2_reference_sequence_neural_net4bothnlouts.py
+  688  nano *4a.py
+  689  exit
+  690  sftp pcuser@192.168.1.107
+  691  cd Downloads/
+  692  sftp pcuser@192.168.1.107
+  693  nohup bash bs_ln_outs.sh 
+  694  top
+  695  ls *pkl
+  696  exit
+  697  top
+  698  killall -u pcuser
+  699  shutdown -h now
+  700  sudo su
+  701  cd Downloads
+  702  cd ..
+  703  cp pool2_reference_sequence_neural_net4a.py Downloads/
+  704  nano pool2_reference_sequence_neural_net4
+  705  nano pool2_reference_sequence_neural_net4ots.py 
+  706  xdg-open .
+  707  nano pool2_reference_sequence_neural_net4ots.py 
+  708  cp pool2_reference_sequence_neural_net4ots.py pool2_reference_sequence_neural_net4nnn.py
+  709  cp *nnn.py Downloads/
+  710  cd Downloads/
+  711  cp bs_ln_outs.sh nnn.sh
+  712  sftp pcuser@192.168.1.107
+  713  chmod +x nnn.sh 
+  714  nohup bash nnn.sh
+  715  nano *4a.py
+  716  cd Downloads/
+  717  ls *pkl
+  718  exit
+  719  cd Downloads/
+  720  ls *pkl
+  721  exit
+  722  cd Downloads/
+  723  ls *pkl
+  724  exit
+  725  ls Downloads/*pkl
+  726  top
+  727  ls Downloads/*pkl
+  728  cd Downloads
+  729  nano nnn.sh 
+  730  ls 50cln*
+  731  top
+  732  ls 50cln*
+  733  nohup python3 pool2_reference_sequence_neural_net4a.py && python3 pool2_reference_sequence_neural_net4nnn.py 50cln200lsn10.pkl 50 200 10 &
+  734  top
+  735  cd Downloads/
+  736  mv 50cln200lsn10.pkl 50cln50lsn10.pkl
+  737  top
+  738  history
+  739  nano jo.sh
+  740  chmod +x jo.sh
+  741  nohup bash jo.sh
+  742  nano jo.sh
+  743  killall -u pcuser
+  744  nohup bash jo.sh
+  745  ls Downloads/*pkl
+  746  top
+  747  ls Downloads/*pkl
+  748  exit
+  749  jupyter notebook
+  750  shutdown -h now
+  751  sudo dd if=/dev/zero of=/dev/zero bs=4M
+  752  sudo apt-get uninstall google-chrome
+  753  sudo apt-get remove google-chrome
+  754  sudo apt-get remove chrome
+  755  sudo apt-get remove chrome-browser
+  756  sudo dpkg -r google-chrome-stable
+  757  cd Desktop/
+  758  cd ..
+  759  jupyter notebook
+  760  shutdown -h now
+  761  sudo dd if=/dev/zero of=/dev/sdb bs=4M
+  762  fdisk -l
+  763  sudo dd if=/dev/zero of=/dev/sdc bs=4M
+  764  shutdown -h now
+  765  sudo shutdown -h now
+  766  sudo systemctl set-default multi-user.target && sudo shutdown -r now
+  767  cd Downloads/
+  768  ls
+  769  exit
+  770  sudo shutdown -h now
+  771  sftp pcuser@192.168.1.107
+  772  ls
+  773  mv multrun/ Downloads/
+  774  cd Downloads/
+  775  cd multrun/
+  776  ls
+  777  chmod +x sfor.sh 
+  778  nohup bash sfor.sh
+  779  top
+  780  top
+  781  killall -u pcuser
+  782  cd Downloads/multrun/
+  783  sftp pcuser@192.168.1.107
+  784  top
+  785  kill 1035
+  786  sudo kill 1035
+  787  top
+  788  chmod +x oscrip.sh 
+  789  nohup bash oscrip.sh 
+  790  top
+  791  killall -u pcuser
+  792  ./oscrip.sh 
+  793  top
+  794  killall -u pcuser
+  795  top
+  796  nohup bash oscrip.sh 
+  797  top
+  798  exit
+  799  cd Downloads/multrun/
+  800  ls
+  801  top
+  802  exit
+  803  147258
+  804  top
+  805  cd Downloads/multrun/
+  806  ls
+  807  exit
+  808  cd Downloads/multrun/
+  809  ls
+  810  ls -la 
+  811  exit
+  812  147258
+  813  cd Downloads/multrun/
+  814  ls
+  815  exit
+  816  audo su
+  817  sudo su
+  818  sudo systemctl set-default graphical.target
+  819  shutdown -r now
+  820  jupyter notebook
+  821  shutdown -h now
+  822  exit
+  823  shutdown -h now
+  824  nmap -sn 192.168.1.1/16
+  825  cd Documents/summer2019-extra/threads/
+  826  Make
+  827  make
+  828  make clean
+  829  make
+  830  sudo apt-get install libncurses5-dev
+  831  make
+  832  ./cellthreads
+  833  make
+  834  cd ..
+  835  threads\(Desktop\)/
+  836  cd threads\(Desktop\)/
+  837  make
+  838  rm -rf cellthreads
+  839  make
+  840  cd ../summer2019-extra/
+  841  cd threads/
+  842  make
+  843  cd ..
+  844  make
+  845  cd threads/
+  846  make
+  847  automake
+  848  make
+  849  gcc -pthread -o  cellbattle cellbattle.c coordlinklist.c celllinklist2.c -g -lncurses
+  850  ls
+  851  make
+  852  ./cellbattle
+  853  cd passtest/
+  854  make
+  855  rm -rf cellbattle
+  856  make
+  857  rm -rf cellbattle
+  858  make
+  859  ./cellbattle
+  860  make
+  861  ./cellbattle
+  862  make
+  863  ./cellbattle
+  864  make
+  865  ./cellbattle
+  866  make
+  867  ./cellbattle
+  868  make
+  869  ./cellbattle
+  870  make
+  871  ./cellbattle
+  872  make
+  873  ./cellbattle
+  874  make
+  875  ./cellbattle
+  876  make
+  877  ./cellbattle
+  878  make
+  879  ./cellbattle
+  880  make
+  881  ./cellbattle
+  882  make
+  883  ./cellbattle
+  884  make
+  885  ./cellbattle
+  886  make
+  887  ./cellbattle
+  888  make
+  889  ./cellbattle
+  890  make
+  891  ./cellbattle
+  892  make
+  893  ./cellbattle
+  894  make
+  895  ./cellbattle
+  896  gdb ./cellbattle
+  897  make
+  898  gdb ./cellbattle
+  899  ./cellbattle
+  900  make
+  901  ./cellbattle
+  902  gdb ./cellbattle
+  903  make
+  904  ./cellbattle
+  905  gdb ./cellbattle
+  906  make
+  907  ./cellbattle
+  908  gdb ./cellbattle
+  909  make
+  910  gdb ./cellbattle
+  911  ./cellbattle
+  912  make
+  913  ./cellbattle
+  914  make
+  915  ./cellbattle
+  916  make
+  917  ./cellbattle
+  918  gdb ./cellbattle 
+  919  make
+  920  gdb ./cellbattle 
+  921  make
+  922  ./cellbattle
+  923  make
+  924  ./cellbattle
+  925  make
+  926  ./cellbattle
+  927  make
+  928  ./cellbattle
+  929  make
+  930  ./cellbattle
+  931  gdb ./cellbattle 
+  932  xset dpms force off
+  933  nmap -sn 192.168.1.1/24
+  934  ssh pi@192.168.1.129
+  935  ssh pi@192.168.1.85
+  936  nmap -sn 192.168.1.1/24
+  937  ssh pi@192.168.1.80
+  938  ssh pi@192.168.1.129
+  939  ssh 192.168.1.129
+  940  sudo dd if=/dev/zero of=/dev/sdc bs=4M
+  941  xset dpms force off
+  942  cd Downloads/
+  943  cd ../Desktop/
+  944  sudo dd if=2019-09-26-raspbian-buster-full.img of=/dev/sdc bs=4M
+  945  nmap -sn 192.168.1.0/24
+  946  nmap -sn 192.168.1.1/24
+  947  ssh pi@192.168.1.106
+  948  ssh pi@192.168.1.80
+  949  192.168.1.71
+  950  ssh pi@192.168.1.71
+  951  cd Documents/summer2019-extra/threads/passtest/
+  952  gcc -o singftest singftest.c -g
+  953  ./singftest
+  954  gcc -o singftest singftest.c -g
+  955  ./singftest
+  956  gcc -o singftest singftest.c -g
+  957  ./singftest
+  958  gcc -o singftest singftest.c -g
+  959  ./singftest
+  960  gdb ./singfest
+  961  gdb ./singftest
+  962  gcc -o singftest singftest.c -g
+  963  ./singftest
+  964  gcc -o singftest singftest.c -g
+  965  ./singftest
+  966  gcc -o singftest singftest.c -g
+  967  ./singftest
+  968  gcc -o singftest singftest.c -g
+  969  ./singftest
+  970  gcc -o singftest singftest.c -g
+  971  ./singftest
+  972  gcc -o singftest singftest.c -g
+  973  ./singftest
+  974  gcc -o singftest singftest.c -g
+  975  ./singftest
+  976  gcc -o singftest singftest.c -g
+  977  ./singftest
+  978  gdb ./singftest
+  979  gcc -o singftest singftest.c -g
+  980  ./singftest
+  981  gdb ./singftest
+  982  gcc -o singftest singftest.c -g
+  983  gdb ./singftest
+  984  gcc -o singftest singftest.c -g
+  985  gdb ./singftest
+  986  gcc -o singftest singftest.c -g
+  987  ./singftest
+  988  gcc -o singftest singftest.c -g
+  989  ./singftest
+  990  gcc -o singftest singftest.c -g
+  991  ./singftest
+  992  gcc -o singftest singftest.c -g
+  993  ./singftest
+  994  gcc -o singftest singftest.c -g
+  995  ./singftest
+  996  gcc -o singftest singftest.c -g
+  997  ./singftest
+  998  gcc -o singftest singftest.c -g
+  999  ./singftest
+ 1000  gcc -o singftest singftest.c -g
+ 1001  ./singftest
+ 1002  gcc -o singftest singftest.c -g
+ 1003  ./singftest
+ 1004  gdb ./singftest 
+ 1005  gcc -o singftest singftest.c -g
+ 1006  ./singftest
+ 1007  gcc -o singftest singftest.c -g
+ 1008  ./singftest
+ 1009  gcc -o singftest singftest.c -g
+ 1010  ./singftest
+ 1011  gcc -o singftest singftest.c -g
+ 1012  ./singftest
+ 1013  gcc -o singftest singftest.c -g
+ 1014  ./singftest
+ 1015  gcc -o singftest singftest.c -g
+ 1016  ./singftest
+ 1017  gcc -o singftest singftest.c -g
+ 1018  ./singftest
+ 1019  gcc -o singftest singftest.c -g
+ 1020  ./singftest
+ 1021  gcc -o singftest singftest.c -g
+ 1022  ./singftest
+ 1023  gcc -o singftest singftest.c -g
+ 1024  ./singftest
+ 1025  gcc -o singftest singftest.c -g
+ 1026  ./singftest
+ 1027  gcc -o singftest singftest.c -g
+ 1028  ./singftest
+ 1029  gcc -o singftest singftest.c -g
+ 1030  ./singftest
+ 1031  gcc -o singftest singftest.c -g
+ 1032  ./singftest
+ 1033  gcc -o singftest singftest.c -g
+ 1034  ./singftest
+ 1035  gcc -o singftest singftest.c -g
+ 1036  ./singftest
+ 1037  gcc -o singftest singftest.c -g
+ 1038  ./singftest
+ 1039  gcc -o singftest singftest.c -g
+ 1040  ./singftest
+ 1041  gcc -o singftest singftest.c -g
+ 1042  ./singftest
+ 1043  gcc -o singftest singftest.c -g
+ 1044  ./singftest
+ 1045  gcc -o singftest singftest.c -g
+ 1046  ./singftest
+ 1047  gcc -o singftest singftest.c -g
+ 1048  ./singftest
+ 1049  gcc -o singftest singftest.c -g
+ 1050  ./singftest
+ 1051  gcc -o singftest singftest.c -g
+ 1052  ./singftest
+ 1053  gcc -o singftest singftest.c -g
+ 1054  ./singftest
+ 1055  gcc -o singftest singftest.c -g
+ 1056  ./singftest
+ 1057  gcc -o singftest singftest.c -g
+ 1058  ./singftest
+ 1059  ssh pi@192.168.1.107
+ 1060  ssh pi@192.168.1.106
+ 1061  cd ..
+ 1062  ls
+ 1063  cd Downloads/
+ 1064  cd rescomp/
+ 1065  ls
+ 1066  ls -c
+ 1067  ls -ls
+ 1068  ls -la
+ 1069  ls -c -la
+ 1070  ls -la
+ 1071  ls *.py
+ 1072  cd ..
+ 1073  ls *.py
+ 1074  exit
+ 1075  history
+ 1076  cd Down
+ 1077  cd Downloads/
+ 1078  ls
+ 1079  cp -r multrun/ rescomp/multrun/
+ 1080  cd rescomp/
+ 1081  ls
+ 1082  cd multrun/
+ 1083  ls
+ 1084  nano genas.py 
+ 1085  nano oscrip.sh 
+ 1086  gedit oscrip.sh &
+ 1087  nano genas.py 
+ 1088  rm -rf a*.pkl
+ 1089  la
+ 1090  ls
+ 1091  python3 genas.py &
+ 1092  ls
+ 1093  nohup bash oscrip.sh 
+ 1094  top
+ 1095  exit
+ 1096  top
+ 1097  cd Downloads/rescomp/multrun/
+ 1098  ls
+ 1099  exit
+ 1100  cd Downloads/rescomp/multrun/
+ 1101  ls
+ 1102  exit
+ 1103  top
+ 1104  cd Downloads/rescomp/multrun/
+ 1105  ls
+ 1106  exit
+ 1107  cd Downloads/rescomp/multrun/
+ 1108  ls
+ 1109  sudo apt-get install mp3wrap
+ 1110  cd ../../Audiobooks2/
+ 1111  mp3wrap output.mp3 *.mp3
+ 1112  cd Downloads/Audiobooks2/
+ 1113  ls
+ 1114  cd Fyodor\ Dostoevsky\ -\ Crime\ and\ Punishment\ \[V6\]\ Unabridged/
+ 1115  mp3wrap CrimeAndPunishment.mp3 *.mp3
+ 1116  sox
+ 1117  sudo apt install soz
+ 1118  sudo apt install sox
+ 1119  sox *.mp3 CrimeAndPunishment.mp3
+ 1120  sox -h
+ 1121  cat *.mp3 > CrimeAndPunishment.mp3
+ 1122  ls -la CrimeAndPunishment.mp3 
+ 1123  cd Desktop/
+ 1124  ls
+ 1125  killall nautilus
+ 1126  shutdown -r now
+ 1127  jupyter notebook
+ 1128  top
+ 1129  jupyter notebook
+ 1130  top
+ 1131  ssh pi@192.168.1.106
+ 1132  ssh pi@192.168.1.106
+ 1133  top
+ 1134  history
+ 1135  exit
+ 1136  top
+ 1137  jupyter notebook
+ 1138  wget -q -O - https://mkvtoolnix.download/gpg-pub-moritzbunkus.txt | sudo apt-key add -
+ 1139  sudo sh -c 'echo "deb http://mkvtoolnix.download/ubuntu/ bionic main" >> /etc/apt/sources.list.d/bunkus.org.list'
+ 1140  sudo apt update
+ 1141  sudo apt install mkvtoolnix mkvtoolnix-gui
+ 1142  cd Downloads/
+ 1143  ls
+ 1144  exit
+ 1145  ipconfig
+ 1146  sudo apt-get install ipconfig
+ 1147  sudo systemctl NetworkManager restart
+ 1148  systemctl NetworkManager restart
+ 1149  service NetworkManager restart
+ 1150  sudo systemctl NetworkManager restart
+ 1151  sudo apt-get install ipconfig
+ 1152  ping
+ 1153  ping www.google.com
+ 1154  ifconfig
+ 1155  ssh pcuser@00:e0:b8:c8:18:76
+ 1156  nm-connection-editor
+ 1157  top
+ 1158  jupyter notebook
+ 1159  top
+ 1160  sudo su
+ 1161  top
+ 1162  exit
+ 1163  top
+ 1164  shutdown -h now
+ 1165  sudo shutdown -h now
+ 1166  jupyter notebook
+ 1167  top
+ 1168  top
+ 1169  jupyter notebook
+ 1170  shutdown -h now
+ 1171  ping 
+ 1172  hping3
+ 1173  sudo apt-get install hping3
+ 1174  hping3 --flood 10.0.0.26
+ 1175  sudo hping3 --flood 10.0.0.26
+ 1176  sudo hping3 --flood 10.0.0.212
+ 1177  sudo hping3 --flood 10.0.0.249
+ 1178  sudo hping3 --flood 10.0.0.178
+ 1179  sudo hping3 --flood 10.0.0.90
+ 1180  ifconfig
+ 1181  nmap -sn 192.168.1.1/24
+ 1182  nmap -sn 10.0.0.1/24
+ 1183  arp-a
+ 1184  arp -a
+ 1185  ping -sn 10.0.0.1
+ 1186  nmap -sn 192.168.1.1/23
+ 1187  nmap -sn 192.168.1.1/24
+ 1188  ifconfig
+ 1189  arp -a
+ 1190  nmap -sn 10.0.0.1/24
+ 1191  arp -a CC:2D:B7:71:13:64
+ 1192  arp
+ 1193  history > hist.text
